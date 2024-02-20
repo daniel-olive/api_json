@@ -1,9 +1,153 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "catalogos": [
+    {
+      "id": "1",
+      "nome": "Brinquedos Masculinos home",
+      "descricao": "Carrinho de corrida masculino 4 rodas.\ncomo parara \n\n\n",
+      "imagem": "https://daniel-olive-dev.com.br/assets/images/a-saude-esta-doente.jpg"
+    },
+    {
+      "id": "2",
+      "nome": "Papelaria",
+      "descrição": "Carrinho de corrida masculino 4 rodas.",
+      "imagem": "https://daniel-olive-dev.com.br/assets/images/images.jpeg"
+    },
+    {
+      "id": "3",
+      "nome": "Perfumes",
+      "descrição": "Perfumes importados puro.",
+      "imagem": "https://daniel-olive-dev.com.br/assets/images/perfumes-importados.png"
+    },
+    {
+      "id": "4",
+      "nome": "Maquiagem.jpeg",
+      "descrição": "Paletas de maquiagens.",
+      "imagem": "https://daniel-olive-dev.com.br/assets/images/maquiagem.jpeg"
+    },
+    {
+      "id": "5",
+      "nome": "Urso de pelucia",
+      "descrição": "Carrinho de corrida masculino 4 rodas.",
+      "imagem": "https://daniel-olive-dev.com.br/assets/images/urso-de-pelucia.jpeg"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "produtos": [
+    {
+      "id": "1",
+      "nome": "carrinho de corrida azul",
+      "preco": "29,90",
+      "promocao": 69.9,
+      "descrição": "Carrinho de corrida masculino 4 rodas.",
+      "marca": "FastBrink",
+      "estoque": "33",
+      "frete": "grátis",
+      "imagem": "https://daniel-olive-dev.com.br/assets/images/carrinho-azul.png"
+    },
+    {
+      "id": "3",
+      "nome": "Avião de corrida turbo verde e azul",
+      "preco": "22,90",
+      "promocao": 249.9,
+      "descrição": "Avião de corrida turbo mergulho.",
+      "marca": "Brinquedo",
+      "estoque": "10",
+      "frete": "grátis",
+      "freteTaxa": 12.2,
+      "imagem": "https://daniel-olive-dev.com.br/assets/images/aviao.png"
+    },
+    {
+      "id": "4",
+      "nome": "Bicicleta Infantil",
+      "preco": 259.9,
+      "descrição": "Bicicleta aro 20 16 machas.",
+      "marca": "Calloy",
+      "estoque": 5,
+      "freteTaxa": 112.9,
+      "imagem": "https://daniel-olive-dev.com.br/assets/images/bicicleta-infantil-aro-12.png"
+    },
+    {
+      "id": "5",
+      "nome": "Patinete unisex",
+      "preco": 159.9,
+      "promocao": 189.9,
+      "descrição": "Patinete 2 rodas crinças até 6 anos de idade.",
+      "marca": "RodaToys",
+      "estoque": 20,
+      "freteTaxa": 42.9,
+      "imagem": "https://daniel-olive-dev.com.br/assets/images/patinet.jpg"
+    },
+    {
+      "id": "6",
+      "nome": "Camisa",
+      "preco": "39,90",
+      "tamanho": {
+        "P": "P",
+        "G": "G",
+        "GG": "GG"
+      },
+      "descrição": "Camisa malha fina algodão.",
+      "marca": "Tecidos nota 10",
+      "estoque": 60,
+      "frete": "grátis",
+      "imagem": "https://daniel-olive-dev.com.br/assets/images/camisa-masculina.png"
+    },
+    {
+      "id": "7",
+      "nome": "Blusa malha fina ",
+      "preco": 29.9,
+      "promocao": 49.9,
+      "tamanho": {
+        "P": "P",
+        "G": "G",
+        "GG": "GG"
+      },
+      "descrição": "Blusa malha fina algodão.",
+      "marca": "VestGirls",
+      "estoque": 10,
+      "frete": "grátis",
+      "imagem": "https://daniel-olive-dev.com.br/assets/images/blusa-feminina.png"
+    },
+    {
+      "id": "8",
+      "nome": "Conectados Com Deus",
+      "preco": 19.9,
+      "autor": "Max Lucado",
+      "descrição": "Um ótino livro para ler e meditar.",
+      "editora": "Graça",
+      "estoque": 10,
+      "freteTaxa": 8.9,
+      "imagem": "https://daniel-olive-dev.com.br/assets/images/conectados-com-deus.jpg"
+    },
+    {
+      "id": "9",
+      "nome": "Livro Clássicos Historia Infantil",
+      "preco": 29.9,
+      "promocao": 32.9,
+      "autor": "Sakura Shop",
+      "descrição": "Um ótino livro para ler e meditar.",
+      "editora": "DiscoveryBook",
+      "estoque": 20,
+      "freteTaxa": 5.8,
+      "imagem": "https://daniel-olive-dev.com.br/assets/images/os-tres-porquinhos.jpg"
+    },
+    {
+      "id": "10",
+      "nome": "A Saúde Está Doente",
+      "preco": 79.9,
+      "autor": "HOSPITAIS BRASIL",
+      "descrição": "Um ótino livro para ler.",
+      "editora": "FitBook",
+      "estoque": 17,
+      "frete": "grátis",
+      "imagem": "https://daniel-olive-dev.com.br/assets/images/a-saude-esta-doente.jpg"
+    }
   ],
-  "profile": { "name": "typicode" }
+  "login": [
+    {
+      "id": "1",
+      "email": "lobopc138@gmail.com",
+      "senha": "12345678",
+      "token": "12ersdfgt546ergrt676879bdeferf"
+    }
+  ]
 }
